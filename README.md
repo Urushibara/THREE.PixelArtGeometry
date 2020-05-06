@@ -26,7 +26,7 @@ The second argument is an integer specifying the depth, the third argument is tr
 
     let uvs_geo = new THREE.PixelArtGeometry( canvas, 1 );
     
-    let texture = new THREE.TextureLoader().load( './mytexture.png' );
+    let texture = new THREE.CanvasTexture( canvas );
     texture.magFilter = THREE.NearestFilter;
 
     material = new THREE.MeshLambertMaterial({ map: texture, transparent: true, alphaTest: 0.5 });
