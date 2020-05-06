@@ -1,6 +1,6 @@
 # Three.js PixelArtGeometry
 
-THREE.PixelArtGeometry constructs a single geometry by providing a &lt;canvas&gt; element to extrude each of its pixels. The voxel corresponding to each pixel has the color and UV mapping of the original image.
+THREE.PixelArtGeometry constructs a single geometry by providing a &lt;canvas&gt; element to extrude each of its pixels except transparent pixels. The voxel corresponding to each pixel has the color and UV mapping of the original image.
 
 The second argument is an integer specifying the depth, the third argument is true when using VertexColors.
 
